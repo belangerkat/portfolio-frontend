@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Francois+One&family=Knewave&family=Londrina+Outline&family=Monoton&family=Six+Caps&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url("images/background.JPG"); */
+    background-color: rgb(128, 124, 124);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Francois One', sans-serif; 
+    color: #dfe5ec;
+}
+.intro{
+    /* background-color: rgb(128, 124, 124); */
+    background-image: url("images/background3.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(215, 35, 221);
+    font-family: 'Londrina Outline', cursive;
+}
+.about-me, .experience-section, .project-section, .skills-section, .social-medias {
+    text-align: center;
+}
+.hello{
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 60px;
+    text-align: left;
+    padding: 150px;
+    /* text-transform: uppercase; */
+    
+}
+.katie-image-1 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    /* float: right; */
+    margin-left: 550px;
+}
+/* .katie-image-2 {
+    width: 10%;
+    height: auto;
+    display: flex;
+    /* float: right; */
+    /* margin-right: 600px;
+} */ 
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Londrina Outline', cursive;
+}
+
+.logo {
+    font-family: 'Londrina Outline', cursive;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    /* background-color:  #1A253F; */
+    height: 90px;
+}
+
+/* .logo {
+    width: 89px;
+    height: auto;
+    cursor: pointer;
+} */
+.nav-links {
+    list-style: none;
+    /* background-color:  #1A253F; */
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    /* background-color:  #1A253F; */
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: blanchedalmond;
+    /* background-color:  #1A253F; */
+}
+.nav-links li a:hover {
+     color: rgb(230, 164, 230);
+     font-style: italic;
+}
