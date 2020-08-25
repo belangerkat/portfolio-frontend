@@ -7,32 +7,44 @@
 }
 
 body {
-    /* background-image: url("images/background.JPG"); */
-    background-color: rgb(128, 124, 124);
+    background-image: url("images/texture.jpg");
+    /* background-color: rgb(128, 124, 124); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Francois One', sans-serif; 
-    color: #dfe5ec;
+    /* color: rgb(133, 130, 126); */
+    color: rgb(128, 125, 122);
 }
 .intro{
-    /* background-color: rgb(128, 124, 124); */
-    background-image: url("images/background3.JPG");
+    background-color: rgba(141, 145, 150, 0.747);
+    /* opacity: 0.5; */
+    /* background-image: url("images/texture.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(215, 35, 221);
-    font-family: 'Londrina Outline', cursive;
+    color: blanchedalmond;
+    /* font-family: 'Monoton', cursive; */
+}
+
+p {
+    font-family: 'Francois One', sans-serif;
+    /* text-align: left; */
+    /* line-height: 60px; */
+    /* padding: 10px; */
+    margin-left: 250px; 
+    margin-top: 0px;
 }
 .about-me, .experience-section, .project-section, .skills-section, .social-medias {
     text-align: center;
 }
-.hello{
+.hello {
     font-weight: bold;
     font-size: 100px;
     line-height: 60px;
     text-align: left;
-    padding: 150px;
+    padding: 50px;
+    margin-left: 150px;
     /* text-transform: uppercase; */
     
 }
@@ -58,8 +70,9 @@ h2 {
 }
 
 .logo {
-    font-family: 'Londrina Outline', cursive;
+    font-family: 'Monoton', cursive;
     cursor: pointer;
+    color: rgb(195, 43, 226);
 }
 
 header {
@@ -88,10 +101,21 @@ header {
 .nav-links li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    color: blanchedalmond;
+    /* color: rgb(133, 130, 126); */
+    color: rgb(128, 125, 122);
     /* background-color:  #1A253F; */
 }
 .nav-links li a:hover {
-     color: rgb(230, 164, 230);
+    color: rgb(195, 43, 226);
      font-style: italic;
+}
+
+.personal-links li a {
+    text-decoration: none;
+    color: rgb(128, 125, 122);
+}
+
+.logo-letter {
+    text-decoration: none;
+    color: rgb(195, 43, 226);
 }
