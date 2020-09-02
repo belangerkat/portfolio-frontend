@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Francois+One&family=Knewave&family=Londrina+Outline&family=Monoton&family=Six+Caps&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/texture.jpg");
+    /* background-color: rgb(128, 124, 124); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Francois One', sans-serif; 
+    /* color: rgb(133, 130, 126); */
+    color: rgb(128, 125, 122);
+}
+
+.logo {
+    font-family: 'Monoton', cursive;
+    cursor: pointer;
+    color: rgb(195, 43, 226);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    /* background-color:  #1A253F; */
+    height: 90px;
+}
+
+/* .logo {
+    width: 89px;
+    height: auto;
+    cursor: pointer;
+} */
+.nav-links {
+    list-style: none;
+    /* background-color:  #1A253F; */
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    /* background-color:  #1A253F; */
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    /* color: rgb(133, 130, 126); */
+    color: rgb(128, 125, 122);
+    /* background-color:  #1A253F; */
+}
+.nav-links li a:hover {
+    color: rgb(195, 43, 226);
+     font-style: italic;
+}
+
+.logo-letter {
+    text-decoration: none;
+    color: rgb(195, 43, 226);
+}
