@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function aboutMeScroll(event) {
         event.preventDefault()
-        aboutMeSection.scrollIntoView()
+        aboutMeSection.scrollIntoView({
+            behavior: 'smooth'
+        })
     }
 })
