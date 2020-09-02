@@ -28,25 +28,51 @@ body {
     /* font-family: 'Monoton', cursive; */
 }
 
-p {
+#catch-line {
     font-family: 'Francois One', sans-serif;
     /* text-align: left; */
     /* line-height: 60px; */
     /* padding: 10px; */
-    margin-left: 250px; 
-    margin-top: 0px;
+    margin-left: 230px; 
+    margin-top: -20px;
 }
-.about-me, .experience-section, .project-section, .skills-section, .social-medias {
+#learn-more {
+    font-family: 'Francois One', sans-serif;
+    color: blanchedalmond;
+    /* text-align: left; */
+    /* line-height: 60px; */
+    padding: 30px;
+    align-self: center; 
+    margin-top: 50px;
+    background-color: rgba(77, 70, 78, 0.164);
+    border-radius: 50%;
+    text-decoration: none;
+    border: 0;
+    /* border: 0;
+    padding: 0; */
+}
+
+#button-wrapper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+.about-me {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 800px;
+    margin-bottom: 200px;
+    /* background-color: rgba(141, 145, 150, 0.747); */
 }
 .hello {
     font-weight: bold;
     font-size: 100px;
     line-height: 60px;
     text-align: left;
-    padding: 50px;
-    margin-left: 150px;
+    text-shadow: 12px 5px rgba(33, 159, 197, 0.712);
+    padding: 80px;
+    margin-left: 60px;
+    letter-spacing: 0.06em;
     /* text-transform: uppercase; */
     
 }
@@ -106,6 +132,7 @@ header {
     text-decoration: none;
     /* color: rgb(133, 130, 126); */
     color: rgb(128, 125, 122);
+    text-shadow: 3px 10px rgb(195, 43, 226);
     /* background-color:  #1A253F; */
 }
 .nav-links li a:hover {
@@ -123,8 +150,23 @@ header {
     color: rgb(195, 43, 226);
 }
 
-.technology-icon {
-    height: 50px;
-    width: auto;
+.table-container {
+    height: 84px;
+    background-color: rgba(227, 230, 235, 0.747);
 }
 
+.image-icon {
+    height: 60px;
+    margin-right: 50px;
+    display: inline;
+}
+
+#contact-list {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.table {
+	display: table; 
+    margin: 0 auto;
+}

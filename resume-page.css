@@ -71,3 +71,24 @@ header {
     text-decoration: none;
     color: rgb(195, 43, 226);
 }
+
+.table-container {
+    height: 84px;
+    background-color: rgba(227, 230, 235, 0.747);
+}
+
+.image-icon {
+    height: 60px;
+    margin-right: 50px;
+    display: inline;
+}
+
+#contact-list {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.table {
+	display: table; 
+    margin: 0 auto;
+}

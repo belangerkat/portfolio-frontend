@@ -15,8 +15,14 @@ body {
     font-family: 'Francois One', sans-serif; 
     /* color: rgb(133, 130, 126); */
     color: rgb(128, 125, 122);
-    height: 84px;
+    
 }
+
+.project-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 .logo {
     font-family: 'Monoton', cursive;
@@ -33,11 +39,6 @@ header {
     height: 90px;
 }
 
-/* .logo {
-    width: 89px;
-    height: auto;
-    cursor: pointer;
-} */
 .nav-links {
     list-style: none;
     /* background-color:  #1A253F; */
@@ -64,18 +65,28 @@ header {
     color: rgb(195, 43, 226);
 }
 
+.technology-icon {
+    height: 50px;
+    width: auto;
+}
+
+.table-container {
+    height: 84px;
+    background-color: rgba(227, 230, 235, 0.747);
+}
+
 .image-icon {
-    height: 150px;
+    height: 60px;
     margin-right: 50px;
     display: inline;
 }
 
 #contact-list {
     list-style: none;
-    padding-top: 150px;
+    padding-top: 20px;
 }
 
 .table {
 	display: table; 
-	margin: 0 auto;
+    margin: 0 auto;
 }

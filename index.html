@@ -13,9 +13,9 @@
         <nav>
             <ul class="nav-links">
                 <li><a class='about-me-nav' href="#">ABOUT ME</a></li>
-                <li><a class='projects-nav' href="#">PROJECTS</a></li>
+                <li><a class='projects-nav' href="projects.html">PROJECTS</a></li>
                 <li><a class='resume-nav' href="resume-page.html">RESUME</a></li>
-                <li><a class='contact-nav' href="contact-page.html">CONTACT</a></li>
+                <li><a class='contact-nav' href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +24,10 @@
     <div class="intro">
         <div class="my-image">
             <h1 class="hello">HI, I'M KATIE.</h1>
-            <p>Software Developer. Environmental Enthusiast. Math Nerd. Artist.</p>
+            <p id='catch-line'>Software Developer. Environmental Enthusiast. Math Nerd. Artist.</p>
+            <div id='button-wrapper'>
+                <button id='learn-more'>Learn More</button>
+            </div>
             <img class="katie-image-1" src="images/katie-image-7.png">
             <!-- <img class="katie-image-2" src="images/katie-image-2.png"> -->
         </div>
@@ -38,22 +41,18 @@
         </ul>
         <!-- add an event listener in js -->
     </div>
-    <div class="experience-section">
+    <!-- <div class="experience-section">
         <h2>Experiences</h2>
-    </div>
-    <div class="project-section">
-        <h2>Projects</h2>
-        <ul id="projects">
-        </ul>
     </div>
     <div class="skills-section">
         <h2>Skills</h2>
-    </div>
+    </div> -->
     <div class="social-medias">
-        <h2>Social</h2>
-        <!-- <img class="github">
-        <img class="linkedin">
-        <img class="instagram"> -->
+        <div class='table-container'>
+            <div class='table'>
+                <ul id='contact-list'></ul>
+            </div>
+        </div>
     </div>
 
 </body>
