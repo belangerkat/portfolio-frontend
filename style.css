@@ -34,16 +34,17 @@ body {
     /* line-height: 60px; */
     /* padding: 10px; */
     margin-left: 230px; 
-    margin-top: -20px;
+    margin-top: -30px;
 }
 #learn-more {
     font-family: 'Francois One', sans-serif;
     color: blanchedalmond;
+    font-size: 0.8rem;
     /* text-align: left; */
     /* line-height: 60px; */
     padding: 30px;
     align-self: center; 
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: rgba(77, 70, 78, 0.164);
     border-radius: 50%;
     text-decoration: none;
@@ -60,8 +61,11 @@ body {
 
 .about-me {
     text-align: center;
-    margin-top: 800px;
-    margin-bottom: 200px;
+    margin-top: 600px;
+    /* margin-bottom: 200px; */
+    background-image: url(images/katie-image-3.png);
+    background-repeat: no-repeat;
+    height: 600px;
     /* background-color: rgba(141, 145, 150, 0.747); */
 }
 .hello {
@@ -94,8 +98,13 @@ body {
 h2 {
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Londrina Outline', cursive;
+    font-family: 'Francois One', sans-serif; 
+    text-shadow: 4px 3px rgba(33, 159, 197, 0.712);
     font-size: 50px;
+}
+
+h3 {
+    margin-top: 50px;
 }
 
 .logo {
@@ -132,7 +141,7 @@ header {
     text-decoration: none;
     /* color: rgb(133, 130, 126); */
     color: rgb(128, 125, 122);
-    text-shadow: 3px 10px rgb(195, 43, 226);
+    text-shadow: 3px 10px rgba(195, 43, 226, 0.719);
     /* background-color:  #1A253F; */
 }
 .nav-links li a:hover {
@@ -143,8 +152,13 @@ header {
 .personal-links li a {
     text-decoration: none;
     color: rgb(128, 125, 122);
+    padding: 50px;
+    border-radius: 50%;
+    background-color: rgba(250, 247, 243, 0.603);
 }
-
+.personal-links li {
+    padding: 80px;
+}
 .logo-letter {
     text-decoration: none;
     color: rgb(195, 43, 226);

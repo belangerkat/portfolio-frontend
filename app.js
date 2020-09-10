@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const aboutMeNavigation = document.querySelector(".about-me-nav")
+    // const aboutMeNavigation = document.querySelector(".about-me-nav")
     const contactNavigation = document.querySelector(".contact-nav")
     const aboutMeSection = document.querySelector(".about-me")
     const contactList = document.querySelector('#contact-list')
     const learnMoreButton = document.querySelector('#learn-more')
 
-    aboutMeNavigation.addEventListener('click', aboutMeScroll)
+    // aboutMeNavigation.addEventListener('click', aboutMeScroll)
     learnMoreButton.addEventListener('click', aboutMeScroll)
     contactNavigation.addEventListener('click', contactScroll)
 
